@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  background-color: #EAEAEA;
+  overflow-x: hidden;
+  font-family: 'Varela', sans-serif;
+}
+
+.row {
+  width: 100%;
+  background-color: inherit;
+}
+
+h1 {
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+
+/*From W3 Schools*/
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    width: 100vw;
+    position: fixed;
+    z-index: 1;
+}
+
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+.topnav a:hover {
+    background-color: #4389C4;
+    color: black;
+}
+
+
+.active {
+    background-color: #085fa8;
+    color: white;
+}
+
+
+.topnav .icon {
+    display: none;
+}
+
+#portfolioPic {
+    width: 10vw;
+    height: 10vw;
+    border-radius: 100%;
+    object-fit: cover;
+    object-position: 50% 60%;
+    overflow-y: hidden;
+    margin: 2vw 10vw;
+
+}
+
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+    background-color: inherit;
+    float: left;
+    clear: both;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 2vw;
+    width: 100%;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    width: 68vw;
+    padding: 2vw;
+}
+
+/*End from W3 Schools*/

@@ -1,0 +1,88 @@
+
+
+a {
+  background-color: transparent;
+}
+
+.navBarLeft {
+    padding-top: 5vh;
+    width: 30vw;
+    height: 100vh;
+    background-color: #f1f1f1;
+    float: left;
+    position: fixed;
+}
+
+.content {
+    margin-left: 30vw;
+    padding-top: 5vh;
+    float: left;
+    width: 68vw;
+    height: auto;
+}
+
+#socialMedia {
+    background-color: transparent;
+}
+
+#twitter {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#twitter a {
+    color: #085fa8;
+    text-decoration: none;
+}
+
+p {
+    background-color: transparent;
+
+}
+
+.sectionHeader {
+    margin-left: 2vw;
+    font-size: 2vw;
+}
+
+.sectionContent {
+    margin-top: 2vw;
+    margin-left: 2vw;
+    font-size: 1.25vw;
+
+}
+
+.sectionContent * {
+    font-family: 'Raleway', sans-serif !important;
+}
+
+.subContent55 {
+    margin-left: 5.5vw;
+}
+
+.subContent65 {
+    margin-left: 6.5vw;
+}
+.experienceList {
+    width: 60vw;
+}
+
+.experienceHeading {
+    font-size: 1.5vw;
+}
+
+.experienceSubHeading {
+    margin:  .5vw 0;
+}
+
+.sectionContent li {
+    margin: 1vw;
+    display: list-item;
+}
+
+li {
+    margin: 1vw;
+    display: list-item;
+}
+

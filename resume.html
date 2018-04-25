@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Joe Bingham</title>
+  <link rel="stylesheet" type="text/css" href="./globalStyles/resume.css">
+  <link rel="stylesheet" type="text/css" href="./globalStyles/global.css">
+  <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Rokkitt:300|Varela" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <script src="./javascript/resume.js"></script>
+</head>
+<body>
+  <div class="topnav" id="myTopnav">
+    <a href="index.html" >Home</a>
+    <a href="resume.html" class="active">Resume</a>
+    <a href="contact.html">Contact</a>
+    <a href="javascript:void(0);" class="icon" onclick="responsiveNav()">&#9776;</a>
+  </div>
+  <main>
+    <div class='navBarLeft'>
+      <img src="./img/joe.JPG" alt="Joe Bingham" id="portfolioPic" />
+      <div id="socialMedia">
+        <p id="twitter">Twitter: <a href='https://twitter.com/coder_joe17' target="_blank">@Coder_Joe17</a></p>
+      </div>
+      <div class="tab">
+        <button class="tablinks" onclick="topic(event, 'Education')" id="defaultOpen">Education</button>
+        <button class="tablinks" onclick="topic(event, 'Work')">Work History</button>
+        <button class="tablinks" onclick="topic(event, 'Tokyo')">Extra-Curriculars</button>
+        <button class="tablinks" onclick="topic(event, 'Tokyo')">Personal</button>
+      </div>
+
+    </div>
+    <div class='content'>
+      <!-- Tab content -->
+        <div id="Education" class="tabcontent">
+          <h3 class='sectionHeader'>Education</h3>
+          <div class='sectionContent'>
+            <p><b>Degrees:</b> Bachelors of Science in Computer Information Systems</p>
+            <br />
+            <p class='subContent55'>Bachelors of Science in Business Data Analytics</p>
+            <br />
+            <p class='subContent55'>Certificate in Cross Sector Leadership</p>
+            <br />
+            <br />
+            <br />
+            <p><b>University:</b> W. P. Carey School of Business</p>
+            <br />
+            <p class='subContent65'>Barrett, the Honors College</p>
+            <br />
+            <p class='subContent65'>Arizona State University</p>
+          </div>
+        </div>
+
+        <div id="Work" class="tabcontent">
+          <h3 class='sectionHeader'>Work Experience</h3>
+            <div class='sectionContent'>
+              <div class='workBlock' />
+                <h4 class='experienceHeading'/>CTO</h4>
+                <h5 class='experienceSubHeading'/>iWaandr</h5>
+                <ul class='experienceList'>
+                  <li>Built and maintains ReactJS single page application that has supported hundreds of thousands of database API calls with minimal response time.</li>
+                  <li>Utilizes the principles of Functional Programming to maintain a Redux state store that interacts with over 30 action creators.</li>
+                  <li>Architects processes and functions designed to efficiently sort through and display complex data.</li>
+                </ul>
+              </div>
+
+              <div class='workBlock' />
+                <h4 class='experienceHeading'/>Web Developer / Bussiness Analyst</h4>
+                <h5 class='experienceSubHeading'/>University Initiatives, ASU</h5>
+                <ul class='experienceList'>
+                  <li>Built and maintains ReactJS single page application that has supported hundreds of thousands of database API calls with minimal response time.</li>
+                  <li>Architected and created a fully functional web platform (with about 7 pages) that is utilized by over 200 deans, vice presidents, and points of contact at ASU by programming in PHP and JavaScript within a Drupal environment</li>
+                  <li>Built a data cleansing system that would take in 3,000 data points, reformat / clean the data, and output survey data in a new format that could be used for Tableau visualizations</li>
+                   <li>Transformed a data set of 1,400 rows from MySQL data to a Tableau dashboard that allowed for users to sort through the database to find specific details based on user filters</li>
+                   <li>Was solely responsible for the technology behind a highly visible web application supporting 400+ users built on a LAMP stack</li>
+                </ul>
+              </div>
+
+              <div class='workBlock' />
+                <h4 class='experienceHeading'/>Web Development Intern</h4>
+                <h5 class='experienceSubHeading'/>Arizona Department of Water Resources</h5>
+                <ul class='experienceList'>
+                  <li>Assisted in the creation of over 100 web pages by designing content types that were then used by multiple groups as the primary page layout</li>
+                  <li>Apply understanding of the Drupal CMS to create views, content types, and blocks to build a web platform that allows non-web developers to add their own unique content to the platform</li>
+                </ul>
+              </div>
+
+            </div>
+
+
+
+
+
+
+        </div>
+
+        <div id="Tokyo" class="tabcontent">
+          <h3>Tokyo</h3>
+          <p>Tokyo is the capital of Japan.</p>
+        </div>
+
+    </div>
+
+
+  </main>
+
+  <script>
+
+    document.getElementById("defaultOpen").click();
+
+  </script>
+
+</body>
+</html>

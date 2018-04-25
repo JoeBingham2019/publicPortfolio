@@ -1,0 +1,200 @@
+.blue {
+    background-color: #085fa8;
+    color: #EAEAEA;
+}
+
+.lightBlue {
+  background-color: #4389C4;
+  color: #EAEAEA;
+}
+
+#banner {
+  height: 18vw;
+  width: 100vw;
+  object-fit: cover;
+  object-position: 50% 60%;
+  overflow-y: hidden;
+}
+
+#bannerFooter {
+  height: 6vw;
+  width: 100vw;
+  overflow-y: hidden;
+}
+
+#bannerFooterImage {
+  height: 12vw;
+  width: 100vw;
+  object-fit: cover;
+  object-position: 50% 110%;
+  overflow-y: hidden;
+}
+
+#desc {
+  height: 15vw;
+  width: 100vw;
+
+}
+
+#react {
+  color: #085fa8;
+  width: 100vw;
+}
+
+
+
+#welcome {
+
+  /*background-color: #120F0B;*/
+  height: 14vw;
+  overflow-y: hidden;
+}
+
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+.topnav a:hover {
+    background-color: #4389C4;
+    color: black;
+}
+
+
+.active {
+    background-color: #085fa8;
+    color: white;
+}
+
+
+.topnav .icon {
+    display: none;
+}
+
+a {
+  background-color: transparent;
+}
+
+h1 {
+  margin-top: 2vw;
+  font-size: 4vw;
+  text-align: center;
+
+
+}
+
+h2 {
+  margin-top: 1vw;
+  font-size: 2vw;
+  text-align: center;
+}
+
+#intro {
+  background-color: inherit;
+  text-align: center;
+  font-size: 2.5vw;
+  width: 80vw;
+  margin: 4vw auto;
+  color: #EAEAEA;
+  vertical-align: center;
+  overflow-y: hidden;
+}
+
+.skillBox {
+  float: left;
+  width: 37vw;
+  padding: 2vw 5vw;
+}
+
+.skillBar {
+  background-color: grey;
+  display: inline-block;
+  margin: 7% 0;
+  height: 2vw;
+  overflow-y: hidden;
+  width: 28vw;
+}
+
+.fullSkillBar {
+  display: inline-block;
+  height: 2vw;
+  width: 1%;
+  margin-bottom: 4vw;
+}
+
+.skillImage {
+  height: 7vw;
+  width: 7vw;
+}
+
+.portfolioBox {
+  float: left;
+  width: 32vw;
+  height: 8vw;
+  padding: 3vw 0;
+}
+
+.portfolioImage {
+  height: 7vw;
+  width: 7vw;
+  object-fit: contain;
+  background-color: transparent;
+  margin: 0 10vw;
+
+}
+
+.centerCircle {
+  margin: 0 14vw;
+}
+
+#asuImage {
+  width: 15vw;
+}
+
+
+#reactProgress {
+
+    background-color: #61dafb;
+}
+
+
+#phpProgress {
+
+    background-color: #ed6b75;
+}
+
+#cProgress {
+
+    background-color: #00A800;
+}
+
+#reduxProgress {
+
+    background-color:  #8A2BE2;
+}
+
+#additionalExplanation{
+  margin-bottom: 2vw;
+}
+
+#portfolio {
+  height: 20vw;
+  overflow-y: hidden;
+}
+
+.skillImage{
+  background-color: transparent;
+}
