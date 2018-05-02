@@ -1,0 +1,13 @@
+main {
+  height: 100vh;
+}
+
+.container {
+  margin-top: 20vh;
+}
+
+#emailP {
+  text-align: center;
+  margin-top: 5vh;
+  font-size: 2vw;
+}

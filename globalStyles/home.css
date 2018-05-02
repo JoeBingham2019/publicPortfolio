@@ -9,36 +9,36 @@
 }
 
 #banner {
-  height: 18vw;
-  width: 100vw;
+  height: 15vw;
+  width: 70vw;
   object-fit: cover;
   object-position: 50% 60%;
   overflow-y: hidden;
 }
 
 #bannerFooter {
-  height: 6vw;
-  width: 100vw;
+  height: 3vw;
+  width: 70vw;
   overflow-y: hidden;
 }
 
 #bannerFooterImage {
   height: 12vw;
-  width: 100vw;
+  width: 70vw;
   object-fit: cover;
-  object-position: 50% 110%;
+  object-position: 50% 124%;
   overflow-y: hidden;
 }
 
 #desc {
-  height: 15vw;
-  width: 100vw;
+  height: 12vw;
+  width: 70vw;
 
 }
 
 #react {
   color: #085fa8;
-  width: 100vw;
+  width: 70vw;
 }
 
 
@@ -96,6 +96,10 @@ h1 {
 
 }
 
+body {
+  background-color: white;
+}
+
 h2 {
   margin-top: 1vw;
   font-size: 2vw;
@@ -106,8 +110,8 @@ h2 {
   background-color: inherit;
   text-align: center;
   font-size: 2.5vw;
-  width: 80vw;
-  margin: 4vw auto;
+  width: 66vw;
+  margin: 2vw auto;
   color: #EAEAEA;
   vertical-align: center;
   overflow-y: hidden;
@@ -115,17 +119,17 @@ h2 {
 
 .skillBox {
   float: left;
-  width: 37vw;
+  width: 24vw;
   padding: 2vw 5vw;
 }
 
 .skillBar {
   background-color: grey;
   display: inline-block;
-  margin: 7% 0;
-  height: 2vw;
+  margin: 11% 0;
+  height: 1.5vw;
   overflow-y: hidden;
-  width: 28vw;
+  width: 16vw;
 }
 
 .fullSkillBar {
@@ -142,7 +146,7 @@ h2 {
 
 .portfolioBox {
   float: left;
-  width: 32vw;
+  width: 22vw;
   height: 8vw;
   padding: 3vw 0;
 }
@@ -152,12 +156,12 @@ h2 {
   width: 7vw;
   object-fit: contain;
   background-color: transparent;
-  margin: 0 10vw;
+  margin: 0 5vw;
 
 }
 
 .centerCircle {
-  margin: 0 14vw;
+  margin: 0 10vw;
 }
 
 #asuImage {

@@ -1,4 +1,12 @@
 
+body {
+    background-color: white;
+}
+
+main {
+    height: 56vw;
+
+}
 
 a {
   background-color: transparent;
@@ -6,7 +14,7 @@ a {
 
 .navBarLeft {
     padding-top: 5vh;
-    width: 30vw;
+    width: 20vw;
     height: 100vh;
     background-color: #f1f1f1;
     float: left;
@@ -14,10 +22,10 @@ a {
 }
 
 .content {
-    margin-left: 30vw;
+    margin-left: 20vw;
     padding-top: 5vh;
     float: left;
-    width: 68vw;
+    width: 46vw;
     height: auto;
 }
 
@@ -65,7 +73,7 @@ p {
     margin-left: 6.5vw;
 }
 .experienceList {
-    width: 60vw;
+    width: 39vw;
 }
 
 .experienceHeading {

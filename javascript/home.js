@@ -8,7 +8,7 @@ function move() {
 
     console.log(window.inner)
 
-    if(window.scrollY > 400 || window.innerWidth < 900){
+    if(window.scrollY > 200 || window.innerWidth < 900){
         var reactElem = document.getElementById("reactProgress");
         var phpElem = document.getElementById("phpProgress");
         var cElem = document.getElementById("cProgress");
